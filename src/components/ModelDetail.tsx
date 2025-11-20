@@ -141,7 +141,7 @@ export default function ModelDetail({ model, onClose }: ModelDetailProps) {
         {/* Stewardship Note */}
         {model.stewardshipNote && (
           <section className="detail-section stewardship-section">
-            <h3>💡 Stewardship Note</h3>
+            <h3>Stewardship Note</h3>
             <p className="stewardship-text">{model.stewardshipNote}</p>
           </section>
         )}
