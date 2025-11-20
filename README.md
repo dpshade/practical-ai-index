@@ -90,11 +90,13 @@ Output: Cost comparison across models with accuracy/cost trade-off analysis
 
 ## Tech Stack
 
-- **Frontend**: Next.js (React framework with SSR/SSG)
-- **Backend**: Python FastAPI (benchmark processing)
+- **Frontend**: Next.js 15 with TypeScript (React framework with SSR/SSG)
+- **Backend**: Python Flask with uv (benchmark processing and API)
+- **LLM Backend**: OpenRouter (unified access to multiple AI models)
 - **Data Storage**: JSON/Markdown (Git-backed) or Arweave (Permaweb)
 - **Data Sources**:
   - Automated scrapers (HuggingFace, Artificial Analysis)
+  - OpenRouter API for behavioral testing
   - Manual behavioral tagging interface
 
 ## Success Metrics
